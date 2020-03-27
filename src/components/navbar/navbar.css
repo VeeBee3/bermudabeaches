@@ -1,0 +1,15 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-brand {
+  height: 2rem;
+  font-family: "Lato", sans-serif;
+  padding: 0.5rem, 0.5rem;
+}
+
+.navbar-dark.navbar-brand a:hover {
+  color: rgb(15, 82, 92);
+}

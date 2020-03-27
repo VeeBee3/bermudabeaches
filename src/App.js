@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Video from "./components/videoplayer";
+import Button from "./components/button";
+import Carousel from "./components/Carousel";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+class App extends Component {
+  // TODO:
+  // finish onClick to scroll page
+  // build form to input locations
+  // push to github
+
+  render() {
+    return (
+      <div className="App">
+        <Video />
+        <a href="#tag" id="#explore ">
+          <Button title="Explore" />
         </a>
-      </header>
-    </div>
-  );
+        <div style={{ width: "100vw", height: "100vh", position: "relative" }}>
+          <Carousel />
+          <span id="move-up">
+            <a
+              href="#tag"
+              alt="scrolls up"vc
+              className="fas fa-arrow-circle-up fa-2x"
+            ></a>
+          </span>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

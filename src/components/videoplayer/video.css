@@ -1,0 +1,71 @@
+#bgvid {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
+}
+
+.caption h1 {
+  margin: 0;
+  height: 45px;
+  font-family: "program", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+
+.caption h2 {
+  height: 50px;
+  margin: 0;
+  font-family: "program", sans-serif;
+  font-size: 2rem;
+  /* letter-spacing: 0.15rem; */
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 10rem;
+}
+
+@media (max-width: 768px) {
+  .caption h1 {
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .caption h3 {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.credit {
+  position: absolute;
+  bottom: 0rem;
+  right: 2rem;
+}
+
+.credit a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+.credit img {
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.credit img:hover {
+  opacity: 1;
+}
