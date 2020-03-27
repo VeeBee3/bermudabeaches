@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../button";
 import "./navbar.css";
 
 function MyNav({ title2, title3 }) {
