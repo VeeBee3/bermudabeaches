@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/bermudabeaches/static/css/main.92589205.chunk.css",
+    "main.js": "/bermudabeaches/static/js/main.1c2b754e.chunk.js",
+    "main.js.map": "/bermudabeaches/static/js/main.1c2b754e.chunk.js.map",
+    "runtime-main.js": "/bermudabeaches/static/js/runtime-main.f4737479.js",
+    "runtime-main.js.map": "/bermudabeaches/static/js/runtime-main.f4737479.js.map",
+    "static/js/2.e2881a7f.chunk.js": "/bermudabeaches/static/js/2.e2881a7f.chunk.js",
+    "static/js/2.e2881a7f.chunk.js.map": "/bermudabeaches/static/js/2.e2881a7f.chunk.js.map",
+    "index.html": "/bermudabeaches/index.html",
+    "precache-manifest.1822f4fcc64643291a2b176d9a7dfdcf.js": "/bermudabeaches/precache-manifest.1822f4fcc64643291a2b176d9a7dfdcf.js",
+    "service-worker.js": "/bermudabeaches/service-worker.js",
+    "static/css/main.92589205.chunk.css.map": "/bermudabeaches/static/css/main.92589205.chunk.css.map",
+    "static/js/2.e2881a7f.chunk.js.LICENSE.txt": "/bermudabeaches/static/js/2.e2881a7f.chunk.js.LICENSE.txt",
+    "static/media/Footage.mp4": "/bermudabeaches/static/media/Footage.2c8442af.mp4",
+    "static/media/img1.jpg": "/bermudabeaches/static/media/img1.021b0d6f.jpg",
+    "static/media/img2.jpg": "/bermudabeaches/static/media/img2.cc0e5a11.jpg",
+    "static/media/img3.jpg": "/bermudabeaches/static/media/img3.d604faf7.jpg",
+    "static/media/img4.jpg": "/bermudabeaches/static/media/img4.95e5008d.jpg",
+    "static/media/img5.png": "/bermudabeaches/static/media/img5.b0858ca1.png",
+    "static/media/img6.jpg": "/bermudabeaches/static/media/img6.525eb64a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4737479.js",
+    "static/js/2.e2881a7f.chunk.js",
+    "static/css/main.92589205.chunk.css",
+    "static/js/main.1c2b754e.chunk.js"
+  ]
+}
